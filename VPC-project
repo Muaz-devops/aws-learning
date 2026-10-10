@@ -12,29 +12,29 @@ Screenshot:
 
 Step 2: Created my Subnets with non overlapping CIDRs and each one in a different AZ
 Public subnet screenshot: 
-![Subnet-public] (https://github.com/Muaz-devops/aws-learning/blob/main/aws-subnet1.JPG?raw=true)
+![Subnet-public](https://github.com/Muaz-devops/aws-learning/blob/main/aws-subnet1.JPG?raw=true)
 Private subnet screenchot:
-![Subnet-private] (https://github.com/Muaz-devops/aws-learning/blob/main/aws-subnet2.JPG?raw=true)
+![Subnet-private](https://github.com/Muaz-devops/aws-learning/blob/main/aws-subnet2.JPG?raw=true)
 
 Step 3: Created my Route tables (Public/Private) and assigned my Subnets to the corresponding table.
 Screenshot:
-![public-route-table] (https://github.com/Muaz-devops/aws-learning/blob/main/aws-project-igw-route-public-subnet.JPG?raw=true)
+![public-route-table](https://github.com/Muaz-devops/aws-learning/blob/main/aws-project-igw-route-public-subnet.JPG?raw=true)
 
 Step 4: Created IGW (Internet gateway) and attached to my custom VPC to enable internet access for the assigned resources.
 
 screenshot: 
-![attatch-igw] (https://github.com/Muaz-devops/aws-learning/blob/main/attatch-igw-to-public-route.JPG?raw=true)
+![attatch-igw](https://github.com/Muaz-devops/aws-learning/blob/main/attatch-igw-to-public-route.JPG?raw=true)
 
 Step 5: Added IGW route to my Public route table
 Screenshot:
-![Subnet-public] (https://github.com/Muaz-devops/aws-learning/blob/main/attatch-igw-to-public-route.JPG?raw=true)
+![Subnet-public](https://github.com/Muaz-devops/aws-learning/blob/main/attatch-igw-to-public-route.JPG?raw=true)
 Step 6: Created Security groups (Private/Public) to keep access secure
 Screenshot:
-![Public-SG] (https://github.com/Muaz-devops/aws-learning/blob/main/aws-public-sg.JPG?raw=true)
+![Public-SG](https://github.com/Muaz-devops/aws-learning/blob/main/aws-public-sg.JPG?raw=true)
 
 Step 7: Launch EC2 instances 
 Public Subnet Instance: Deployed with a public IP and configured for secure SSH access.
 Private Subnet Instance: Deployed without a public IP, acccessible via SSH from Public instance. 
 
 Screenshot:
-![SSH-public-to-pirvate] (https://github.com/Muaz-devops/aws-learning/blob/main/sshd-into-private-from-public.JPG?raw=true)
+![SSH-public-to-pirvate](https://github.com/Muaz-devops/aws-learning/blob/main/sshd-into-private-from-public.JPG?raw=true)
