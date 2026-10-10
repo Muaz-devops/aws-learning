@@ -10,13 +10,13 @@ Task
 
 Step 1:Create the VPC 
 Screenshot: 
-![Create-my-VPC](images/create-vpc.JPG)
+![Create-my-VPC](https://github.com/Muaz-devops/aws-learning/blob/main/images/create-vpc.JPG)
 
 Step 2: Created my Subnets with non overlapping CIDRs and each one in a different AZ
 Public subnet screenshot: 
-![Subnet-public](images/aws-subnet1.JPG)
+![Subnet-public](https://github.com/Muaz-devops/aws-learning/blob/main/images/aws-subnet1.JPG)
 Private subnet screenchot:
-![Subnet-private](images/aws-subnet2.JPG)
+![Subnet-private](https://github.com/Muaz-devops/aws-learning/blob/main/images/aws-subnet2.JPG)
 
 Step 3: Created my Route tables (Public/Private) and assigned my Subnets to the corresponding table.
 Screenshot:
