@@ -10,7 +10,7 @@ Task
 
 Step 1:Create the VPC 
 Screenshot: 
-![Create-my-VPC](https://github.com/Muaz-devops/aws-learning/blob/main/images/create-vpc.JPG)
+![Create-my-VPC](https://github.com/Muaz-devops/aws-learning/blob/main/images/create-vpc.JPG?raw=true)
 
 Step 2: Created my Subnets with non overlapping CIDRs and each one in a different AZ
 Public subnet screenshot: 
