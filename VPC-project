@@ -1,10 +1,12 @@
-##VPC network project
+# VPC network project
 
-Summary 
+Task 
+- Create a custom VPC with one public and one private subnet
+- Set up the correct routing for internet access
+- Deploy EC2 instances across them.
 
-This project consists of building a fully custom network from scratch, demonstrating the fundamentals of cloud networking, routing and segmentation.
 
-Steps and cofig details
+# Steps and cofig details
 
 Step 1:Create the VPC 
 Screenshot: 
